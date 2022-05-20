@@ -3,7 +3,7 @@ body{
 }
 .container{
     text-align: center;
-    width: 60%;
+    width: 80%;
     max-width: 1000px;
     margin: auto;
     display: grid;
@@ -135,4 +135,7 @@ body{
     color: black;
     font-family: sans-serif;
     font-size: 4vw;
+}
+@media(max-width: 720px){
+    .container{width: 95%}
 }
