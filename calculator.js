@@ -65,7 +65,7 @@ function Clear(e){
 
 function displayResult(){
     screen = eval(`${smallScreen}${screen}`)
-    if (screen != 'Infinity'){
+    if (screen != 'Infinity' && screen != 'NaN'){
         document.getElementById('display').textContent = screen;
     }
     else{
