@@ -65,7 +65,7 @@ function Clear(e){
 
 function displayResult(){
     screen = eval(`${smallScreen}${screen}`)
-    if (parseInt(screen) != 'NaN'){
+    if (isNaN(parseInt(screen)) == false){
         document.getElementById('display').textContent = screen;
     }
     else{
